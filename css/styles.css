@@ -1,5 +1,6 @@
 #nemo {
   float: right;
+  margin-right: 100px;
 }
 
 #clickTheText {
@@ -13,25 +14,54 @@
   cursor: pointer;
 }
 
-.text {
+.button {
+  margin-left: 50px;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.button {
   display: none;
-  color: red;
+}
+
+.text {
+  margin-top: 50px;
+  display: none;
 }
 
 .text p {
+  margin-left: 50px;
   width: 800px;
+}
+
+.text h2 {
+  width: 800px;
+  text-align: center;
 }
 
 .first {
   display: none;
+  margin-left: 50px;
 }
 
 .second {
   display: none;
+  margin-left: 50px;
 }
 
 .third {
   display: none;
+  margin-left: 50px;
 }
 
 .clickable:hover {
@@ -42,11 +72,11 @@
     color: #0088cc;
 }
 
-.shark:hover {
+#shark:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-.shark {
+#shark {
   color: #0088cc;
 }
