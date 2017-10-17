@@ -59,9 +59,13 @@
   margin-left: 50px;
 }
 
-.third {
-  display: none;
+.sharkPic img {
+  float: left;
   margin-left: 50px;
+}
+
+.sharkPic {
+  display: none;
 }
 
 .clickable:hover {
@@ -69,6 +73,14 @@
   cursor: pointer;
 }
 .clickable {
+    color: #0088cc;
+}
+
+.returnMain:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.returnMain {
     color: #0088cc;
 }
 

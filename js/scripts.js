@@ -6,41 +6,47 @@ $(function() {
   $("button#green").click(function() {
     $("body").removeClass();
     $("body").addClass("green-background");
-    $(".first").show();
-    $(".text").show();
+    $(".first").fadeIn();
+    $(".text").fadeIn();
+    $(".text #newText").hide();
+    $(".second").show();
   });
 
   $("button#yellow").click(function() {
     $("body").removeClass();
     $("body").addClass("yellow-background");
-    $(".first").show();
-    $(".text").show();
+    $(".first").fadeIn();
+    $(".text").fadeIn();
+    $(".text #newText").hide();
+    $(".second").show();
   });
 
   $("button#red").click(function() {
     $("body").removeClass();
     $("body").addClass("red-background");
-    $(".first").show();
-    $(".text").show();
-  });
-
-  $(".clickable").click(function() {
-    $(".first").hide();
+    $(".first").fadeIn();
+    $(".text").fadeIn();
+    $(".text #newText").hide();
     $(".second").show();
   });
 
-  $(".second .clickable").click(function() {
+  $(".first .clickable").click(function() {
+    //$(".first").hide();
+    $(".text #oldText").toggle();
+    $(".text #newText").toggle();
+    $("second").show();
+  });
+
+  $(".returnMain").click(function() {
     $("body").removeClass();
     $(".button").hide();
-    $(".text").hide();
-    $(".first").hide();
-    $(".second").hide();
-    $(".third").hide();
+    $(".text").slideUp();
+    $(".first").slideUp();
+    $(".second").slideUp();
   });
 
   $("#shark").click(function() {
-    $(".third").slideToggle();
+    $(".sharkPic").slideToggle();
   });
-
 
 });
