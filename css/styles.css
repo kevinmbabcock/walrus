@@ -1,0 +1,11 @@
+.second {
+  display: none;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.clickable {
+    color: #0088cc;
+}
