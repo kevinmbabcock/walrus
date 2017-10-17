@@ -4,7 +4,6 @@ $(function() {
     $(".second").show();
   });
 
-
   $(".second .clickable").click(function() {
     $(".first").show();
     $(".second").hide();
@@ -12,13 +11,8 @@ $(function() {
   })
 
   $(".shark").click(function() {
-    $(".third").show();
+    $(".third").slideToggle();
   })
-
-
-
-
-
 
 
 });
