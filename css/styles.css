@@ -1,3 +1,31 @@
+#nemo {
+  float: right;
+}
+
+#clickTheText {
+  text-align: center;
+  color: #0088cc;
+  margin: 20px;
+}
+
+#clickTheText:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text {
+  display: none;
+  color: red;
+}
+
+.text p {
+  width: 800px;
+}
+
+.first {
+  display: none;
+}
+
 .second {
   display: none;
 }
