@@ -2,10 +2,23 @@
   display: none;
 }
 
+.third {
+  display: none;
+}
+
 .clickable:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 .clickable {
     color: #0088cc;
+}
+
+.shark:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.shark {
+  color: #0088cc;
 }
